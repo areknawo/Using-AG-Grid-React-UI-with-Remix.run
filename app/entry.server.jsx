@@ -1,7 +1,5 @@
 import { renderToString } from "react-dom/server";
 import { RemixServer } from "remix";
-import { prisma } from "./db.server";
-import faker from "@faker-js/faker";
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
