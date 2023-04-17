@@ -48,7 +48,7 @@ export default function Index() {
       getRowParams.successCallback(
         data,
         data.length < getRowParams.endRow - getRowParams.startRow
-          ? getRowParams.startRow
+          ? rowParams.startRow + indexOfLastRow
           : -1
       );
     }
